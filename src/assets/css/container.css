@@ -1,0 +1,112 @@
+/* text written under section */
+.textWrite{
+    font-size: 21px;
+}
+
+/* text size of title*/
+.about{
+    font-size: 35px;
+}
+
+/* styling done for accordion part of experience */
+.experience{
+    background-color: rgb(194, 172, 172);
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    border: none;
+}
+
+.experience:hover{
+    background-color: rgba(0, 183, 255, 0.52);
+    color: white;
+    cursor: pointer;
+}
+
+/* what appears after clicking any of experience sections */
+.panel {
+    padding: 0 18px;
+    background-color: rgba(0, 183, 255, 0.52);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s ease-out;
+}
+
+/* skills styling */
+.java{
+    background-color: #bf0716 !important;
+}
+
+.html{
+    background-color: #e5470d !important;
+}
+.css{
+    background-color:#1de50b !important;
+}
+.javaScript{
+    background-color:#caef0e !important;
+}
+.java{
+    background-color: #bf0716 !important;
+}
+.Cpp{
+    background-color: #0101bc !important;
+}
+.C{
+    background-color: #7591ef !important;
+}
+.nodejs{
+    background-color: #89ef75 !important;
+}
+.reactjs{
+    background-color: #e357e5 !important;
+}
+.sql{
+    background-color: #ff0000 !important;
+}
+.python{
+    background-color: #302d2d !important;
+}
+
+
+/* box that stores skill */
+.skill{ 
+    width: 100%;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+/* action when skill is hovered */
+.skill:hover{
+    background-color:white !important;
+    border: black 1px solid;
+    color:black;
+    cursor: pointer;
+}
+
+/* styling of percentage inside bar */
+#skillBox{
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    background-color: pink;
+    height: 100%;
+    width: 0%;
+    padding-top: 12px;
+}
+
+/* bar that contains percentage */
+#contenedor{
+    width: 100%;
+    height: 50px;
+    background-color:#ddd;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+

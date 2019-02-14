@@ -1,0 +1,21 @@
+/* define position of where footer will be (bottom)  */
+.footer1 {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(26, 169, 212) ;
+    color: white;
+    text-align: center;
+ }
+
+ /* make icons be black */
+ #iconos{
+     color: black;
+ }
+
+ /* action done when hovering over icons */
+ #iconos:hover{
+    color: white;
+    cursor: pointer;
+}
